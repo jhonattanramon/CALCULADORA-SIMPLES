@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styler.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <script defer src='/js/script.js'></script>
+<title>Document</title>
+</head>
+<body>
+    <section class = "container"> 
+        <div class = "sectionResult" id="sectionResult">
+        <span id="resultUp"></span>
+        <span id="resultLow"></span>    
+        </div>
+
+        <div class = "containerButton"id="containerButton">
+            <button onclick = 'cleanAll()' id="test" class="color ḱeyCleanAll colorAlpha key">AC</button>
+            <button onclick = 'cleanC()' class="color keyClean colorAlpha key">C</button>
+            <button onclick = "operations('/')"  class=" color key">/</button>
+            <button onclick = "operations('%')"  class="color key">%</button>
+            <button onclick = "numberResult('7')" class=" key">7</button>
+            <button onclick = "numberResult('8')" class=" key">8</button>
+            <button onclick = "numberResult('9')"class=" key">9</button>
+            <button onclick = "operations('*')" class="color key">X</button>
+            <button onclick = "numberResult('4')"class=" key">4</button>
+            <button onclick = "numberResult('5')" class=" key">5</button>
+            <button onclick = "numberResult('6')"class=" key">6</button>
+            <button onclick = "operations('-')" class=" color key">-</button>
+            <button onclick = "numberResult('1')"class=" key">1</button>
+            <button onclick = "numberResult('2')"class=" key">2</button>
+            <button onclick = "numberResult('3')"class=" key">3</button>
+            <button onclick = 'operations("+")' class=" color key">+</button>
+            <button onclick = "numberResult('0')"class="one key">0</button>
+            <button onclick = "numberResult('.')" class=" key">.</button>
+            <button onclick = "operationResult()" class="color key">=</button>
+        </div>
+    </section>
+</body>
+</html>
